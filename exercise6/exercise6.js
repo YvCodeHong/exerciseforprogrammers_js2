@@ -8,9 +8,13 @@ function retirementCalculator() {
     var retireAge = prompt("At what age would you like to retire?");
     var yearsleft = retireAge - age;
     alert("You have" + ' ' + yearsleft + ' ' + "left until you retire");
-    // var currentYear = now.getFullYear()
-    // var yearofRetirement = currentYear += yearsleft;
-    // alert("It's" + ' '+ currentYear + ' ' +  "so you can retire in" +  ' ' + yearofRetirement); 
+    var year = new Date().getFullYear(); 
+    var retireyear = year + yearsleft; 
+    alert("It's" + ' '+  year + ' ' +  "so you can retire in" +  ' ' + retireyear); 
 }
+
+
+
+
 
 

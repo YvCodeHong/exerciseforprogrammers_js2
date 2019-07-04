@@ -11,6 +11,8 @@ In implementing my solution, I've opted to use Javascript.
  2. Counting the Number of Characters
  3. Printing Quotes
  4. Mad Lib 
+ 5. Simple Math
+ 6. Retirement Calculator
  33. Magic 8 Ball
  34. Employee List Removal
  35. Picking a winner 

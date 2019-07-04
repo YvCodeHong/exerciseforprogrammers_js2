@@ -13,6 +13,7 @@ In implementing my solution, I've opted to use Javascript.
  4. Mad Lib 
  5. Simple Math
  6. Retirement Calculator
+ 7. Area of a Rectangular Room
  33. Magic 8 Ball
  34. Employee List Removal
  35. Picking a winner 

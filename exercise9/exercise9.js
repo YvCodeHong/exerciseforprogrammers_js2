@@ -24,3 +24,5 @@ function paintCalculator(length, width) {
     const paint = Math.ceil(totalarea/area); 
     return "You will need to purchase" + ' ' + paint + ' ' + "gallons of paint to cover" + ' ' + totalarea + ' ' + "square feet";
 }
+
+

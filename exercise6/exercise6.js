@@ -14,7 +14,15 @@ function retirementCalculator() {
 }
 
 
+//another method to solving the retirement Calculator challenge. 
 
+function retirementCalculator(age, retireAge) {
+    const yearsleft = retireAge - age; 
+    return "You have" + ' ' + yearsleft + ' ' + "left until you retire";
+    const year = new Date().getFullYear();
+    const retireyear = year + yearsleft;
+    return "It's" + ' ' + year + ' ' + "so you can retire in" + ' ' + retireyear; 
+}
 
 
 

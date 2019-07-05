@@ -15,6 +15,12 @@ function pizzaParty() {
     alert("There are" + ' ' + pieces_remain + ' ' + "leftover pieces");    
 }
 
+//function with arguments 
 
+function pizzaParty(people, pizzas, pieces) {
+    const total_pieces = pizzas * pieces; 
+    const pieces_remain = total_pieces / people; 
+    return "There are" + ' ' + pieces_remain + ' ' + "leftover pieces"; 
+}
 
 

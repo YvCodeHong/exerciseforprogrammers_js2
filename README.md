@@ -15,6 +15,7 @@ In implementing my solution, I've opted to use Javascript.
  6. Retirement Calculator
  7. Area of a Rectangular Room
  8. Pizza Party 
+ 9. Paint Calculator 
  33. Magic 8 Ball
  34. Employee List Removal
  35. Picking a winner 

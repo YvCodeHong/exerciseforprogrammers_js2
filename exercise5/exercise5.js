@@ -20,3 +20,17 @@ console.log(SimpleMath());
 
 //Revise the program to ensure that inputs are entered as numeric values.
 //Don't allow the user to proceed if the value entered is n
+
+
+//2. Refactor method for SimpleMath
+
+function SimpleMath(number, secondNumber) {
+    if(number < 0 || secondNumber < 0) {
+        alert("Negative Value is not allowed");
+        return false;
+    }
+    alert(number + secondNumber);
+    alert(number - secondNumber);
+    alert(number * secondNumber);
+    alert(number / secondNumber);
+}

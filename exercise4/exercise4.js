@@ -9,3 +9,9 @@ function madLib() {
     alert("Do you" + ' ' + verb + ' ' + ' ' + "your" + ' ' + adjective + ' ' + noun + adverb + "?" + "That is hilarious!");
 
 }
+
+//function with arguments 
+function madLib(noun, verb, adjective, adverb) {
+    return "Do you" + ' ' + verb + ' ' + ' ' + "your" + ' ' + adjective + ' ' + noun + adverb + "?" + "That is hilarious!";
+}
+

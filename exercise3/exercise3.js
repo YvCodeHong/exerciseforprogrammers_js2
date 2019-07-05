@@ -14,8 +14,6 @@ function printQuotes() {
     alert(author + "says" + "," + quote);
 }
 
-
-
 //functions with arguments 
 
 function printQuotes(quote, author) {

@@ -10,6 +10,7 @@ function rectangularRoom() {
     const squareFeet = length * width;
     alert("The area is" + ' ' + squareFeet + ' ' + "square feet");
     //converting square meters
+    const squareMeter =  x 0.09290304 
 }
     
 

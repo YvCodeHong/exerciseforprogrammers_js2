@@ -15,3 +15,12 @@ function paintCalculator() {
     alert("You will need to purchase" + ' ' + paint + ' ' + "gallons of paint to cover" + ' ' + totalarea + ' '+ "square feet");
 }
 
+ //second method of writing the program: 
+
+
+function paintCalculator(length, width) {
+    const totalarea = length * width; 
+    const area = 350; 
+    const paint = Math.ceil(totalarea/area); 
+    return "You will need to purchase" + ' ' + paint + ' ' + "gallons of paint to cover" + ' ' + totalarea + ' ' + "square feet";
+}

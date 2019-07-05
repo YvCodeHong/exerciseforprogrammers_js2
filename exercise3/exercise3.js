@@ -13,3 +13,11 @@ function printQuotes() {
     console.log(author);  
     alert(author + "says" + "," + quote);
 }
+
+
+
+//functions with arguments 
+
+function printQuotes(quote, author) {
+    return author + " " + "says" + "," + quote; 
+}

@@ -11,5 +11,13 @@ function SimpleInterest() {
 }
 
 
+//function with an argument 
+
+function SimpleInterest(principle, rateInterest, numberYears) {
+    const displayaccureAmount = principle * (1 + (rateInterest / 100) * numberYears);
+    return "After" + ' ' + numberYears + ' ' + "years at" + ' ' + rateInterest + "%" + ' ' + ',' + "the investment will be worth" + ' ' + displayaccureAmount;
+}
+
+
 
 

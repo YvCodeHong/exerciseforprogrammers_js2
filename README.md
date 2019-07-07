@@ -16,6 +16,7 @@ In implementing my solution, I've opted to use Javascript.
  7. Area of a Rectangular Room
  8. Pizza Party 
  9. Paint Calculator 
+ 11. Currency Conversion 
  12. Computing Simple Interest
  13. Determining Compound Interest
  33. Magic 8 Ball

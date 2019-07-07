@@ -20,4 +20,3 @@ function SimpleInterest(principle, rateInterest, numberYears) {
 
 
 
-

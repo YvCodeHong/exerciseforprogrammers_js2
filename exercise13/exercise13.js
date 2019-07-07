@@ -14,4 +14,12 @@ function compoundInterest() {
     alert( principal + ' ' + "invested at" + ' ' + rate + '%' + ' ' + "for" + ' ' + numberYears +  ' '+ " years compounded" + ' ' + interestRate + ' ' + " times per year is " + ' ' + roundtotwodecimals + '.');
 }
 
+// function with an argument 
+
+function compoundInterest(principal, rate, numberYears, interestRate) {
+    const amount = principal * Math.pow((1 + (rate / 100) / interestRate), interestRate * numberYears);
+    const roundtotwodecimals = amount.toFixed(2);
+    return principal + ' ' + "invested at" + ' ' + rate + '%' + ' ' + "for" + ' ' + numberYears + ' ' + " years compounded" + ' ' + interestRate + ' ' + " times per year is " + ' ' + roundtotwodecimals + '.';
+}
+
 

@@ -17,6 +17,7 @@ In implementing my solution, I've opted to use Javascript.
  8. Pizza Party 
  9. Paint Calculator 
  12. Computing Simple Interest
+ 13. Determining Compound Interest
  33. Magic 8 Ball
  34. Employee List Removal
  35. Picking a winner 

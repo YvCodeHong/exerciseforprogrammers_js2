@@ -23,3 +23,7 @@ function currencyConversion(euros, exchangeRate) {
     return euros + ' ' + "euros at an exchange rate of" + ' ' + exchangeRate + ' ' + "is" + ' ' + twoDecimal + ' ' + "U.S. dollars";
 }
 
+
+
+
+

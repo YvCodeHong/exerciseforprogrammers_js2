@@ -8,5 +8,5 @@
 function selfCheckout() {
     const price = prompt("Enter the price of item");
     const item = prompt("Enter the quantity of item");
-   
+    const tax = 3.52; 
 }

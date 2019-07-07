@@ -15,3 +15,11 @@ function currencyConversion() {
     alert(euros +  ' ' + "euros at an exchange rate of" +  ' ' + exchangeRate + ' ' + "is" + ' ' + twoDecimal + ' ' + "U.S. dollars");
 }
 
+//function with an argument
+
+function currencyConversion(euros, exchangeRate) {
+    const amount = euros * (exchangeRate / 100);
+    const twoDecimal = amount.toFixed(2);
+    return euros + ' ' + "euros at an exchange rate of" + ' ' + exchangeRate + ' ' + "is" + ' ' + twoDecimal + ' ' + "U.S. dollars";
+}
+

@@ -8,9 +8,11 @@ function rectangularRoom() {
     const width = prompt("What is the width of the room in feet?");
     alert("You entered a dimension of" + ' ' + length + ' ' + "feet by" + ' ' + width + ' ' + "feet");
     const squareFeet = length * width;
-    alert("The area is" + ' ' + squareFeet + ' ' + "square feet");
-    //converting square meters
-    const squareMeter =  x 0.09290304 
+    const squareMeter = squareFeet * 0.09290304; 
+    const twoDecimal = squareMeter.toFixed(2);
+    alert("The area is" + ' ' + squareFeet + ' ' + "square feet" + ' ' + twoDecimal + ' ' + "square meters");
 }
+
+
     
 

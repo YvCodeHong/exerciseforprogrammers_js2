@@ -24,6 +24,7 @@ In implementing my solution, I've opted to use Javascript.
 ## Making Decisions 
 
 14. Tax Calculations 
+15. Password Validation
 
 ## Data Structures 
  33. Magic 8 Ball

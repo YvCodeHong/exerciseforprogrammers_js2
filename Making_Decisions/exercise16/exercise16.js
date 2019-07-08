@@ -12,3 +12,11 @@ function legaldrivingAge() {
         alert("You are old enough to legally drive");
         }
      }
+
+
+//function with arguments/refactor 
+
+function legaldrivingAge(age) {
+    const confirmdrivingAge = 16; 
+    age < 16 ? alert("You are not old enough to legally drive"): alert("You are old enough to legally drive")
+}

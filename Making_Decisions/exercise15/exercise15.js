@@ -17,7 +17,12 @@ function passwordValidation() {
     }
 
 
+//function argument and refactor 
+
+function passwordValidation(username, password){
+    const confirmpassword = "abc$123";
+    password === confirmpassword ? alert("Welcome"): alert("I don't know")
+}
 
 
 
-    

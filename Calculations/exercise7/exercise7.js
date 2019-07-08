@@ -13,6 +13,17 @@ function rectangularRoom() {
     alert("The area is" + ' ' + squareFeet + ' ' + "square feet" + ' ' + twoDecimal + ' ' + "square meters");
 }
 
+//functions with arguements 
+
+function rectangularRoom(length, width){
+    const squareFeet = length * width;
+    const squareMeter = squareFeet * 0.09290304;
+    const twoDecimal = squareMeter.toFixed(2);
+    return "The area is" + ' ' + squareFeet + ' ' + "square feet" + ' ' + twoDecimal + ' ' + "square meters";
+}
+
+
+
 
     
 

@@ -21,6 +21,10 @@ In implementing my solution, I've opted to use Javascript.
  12. Computing Simple Interest
  13. Determining Compound Interest
 
+## Making Decisions 
+
+14. Tax Calculations 
+
 ## Data Structures 
  33. Magic 8 Ball
  34. Employee List Removal

@@ -25,6 +25,7 @@ In implementing my solution, I've opted to use Javascript.
 
 14. Tax Calculations 
 15. Password Validation
+16. Legal Driving Age 
 
 ## Data Structures 
  33. Magic 8 Ball

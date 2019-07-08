@@ -17,3 +17,27 @@ function taxCalculator() {
         alert("The total is $" + order);
     }
 }
+
+//function with an arguement 
+
+function taxCalculator(order, state) {
+    const tax = 0.55;
+    const subtotal = order + tax;
+    if (state === "WI") {
+        alert("The total is $" + subtotal);
+    } else {
+        alert("The total is $" + order);
+    }
+}
+
+
+//refactor the code 
+
+function taxCalculator(order, state) {
+    const tax = 0.55; 
+    const subtotal = order + tax; 
+    state === "WI" ? alert("The total is $" + subtotal) : alert("The total is $" + order);
+}
+
+
+

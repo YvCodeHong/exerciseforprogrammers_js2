@@ -12,4 +12,9 @@ function AnagramChecker()) {
 }
 
 
+//Functions with arguments 
+
+function AnagramChecker(firstString, secondString) {
+    return firstString + ' ' + "and" + ' ' + secondString + ' ' + "are anagrams";
+}
 

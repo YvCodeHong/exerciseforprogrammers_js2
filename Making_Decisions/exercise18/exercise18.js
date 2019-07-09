@@ -20,7 +20,13 @@ function feh_cel(F) {
 
 function temperatureConverter() {
     const fahrenheit = prompt("Please enter the temperature in Fahrenheit");
+    const fah = ()
     const celsius = (fahrenheit - 32) * 5 / 9
     alert("The temperature in Celsius is" + celsius); 
 }
 
+function temperatureConverter() {
+    console.log("Press C to convert from Fahrenheit to Celsius");
+    console.log("Press F to convert from Celsius to Fahrenheit");
+    
+}

@@ -18,3 +18,12 @@ function AnagramChecker(firstString, secondString) {
     return firstString + ' ' + "and" + ' ' + secondString + ' ' + "are anagrams";
 }
 
+//Implement the program using a function called isAnagram, which takes 
+//two words as its arguments and returns true or false. Invoke this function 
+//from your main program. 
+
+function isAngram(firstString, secondString) {
+    console.log(firstString === secondString); 
+    console.log("firstString" === secondString); 
+}
+

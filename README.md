@@ -28,6 +28,10 @@ In implementing my solution, I've opted to use Javascript.
 16. Legal Driving Age 
 18. Temperature Converter
 
+## Functions
+24. Anagram Checker 
+25. Password Strength Indicator
+
 ## Data Structures 
  33. Magic 8 Ball
  34. Employee List Removal

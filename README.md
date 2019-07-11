@@ -32,6 +32,9 @@ In implementing my solution, I've opted to use Javascript.
 24. Anagram Checker 
 25. Password Strength Indicator
 
+## Repetition
+28. Adding Numbers 
+
 ## Data Structures 
  33. Magic 8 Ball
  34. Employee List Removal

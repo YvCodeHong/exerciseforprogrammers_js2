@@ -8,28 +8,30 @@
 
     //years = 72/r 
 
-//where r is the stated rate of return. 
+//where r is the stated rate of return.
 
-
-//1. prompts for the rate of return 
-//2. const rate = prompt("What is the rate of return?");
-//3. if user enters '0', it should return 'Sorry. That's not a valid input'. 
-//4. if user enters 'ABC'(non-numeric values), it should return 'Sorry, That's not valid input' 
-//5. else if user enters a number, then it should return: "It will take 18 years to double your 
-//initial investment". 
+//1. Ask the question to the user "What is the rate of return?"
+//2. store the rate. 
+//3. if the user enter a rate in string 'ABC', return 'Sorry, that's not a valid input' 
+//4 if the user enter a rate which is 0, return 'Sorry, that's not a valid input' 
+//5. if the user enter a number, then use the formula to calculate the years it will take to double investment
 
 function badInput() {
     const rate = prompt("What is the rate of return?");
-    const numInvestment = 72 / rate; 
-    if(rate !== 0) {
-        alert("Sorry. That's not a valid input");
-        const rate = prompt("What is the rate of return?");
-    } else if(rate === isNaN(num)) {
-        alert("Sorry, That's not a valid input");
-        const rate = prompt("What is the rate of return?");
-    } else {
-        alert("It will take" + ' ' + numInvestment + ' ' +  "years to double your initial investment");
+    while (true) { 
+        if(rate !== 0) {
+            alert("Sorry, That's not a valid input");
+        } else if(rate === isNaN()) {
+            alert("Sorry, That's not a valid input");
+        }  
+        break; 
     }
-}
+            const numInvestment = 72 / rate;
+            console.log("It will take" + ' ' + numInvestment + ' ' + "years to double your initial investment.");
+     }
 
-    
+
+
+
+
+

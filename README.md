@@ -34,6 +34,7 @@ In implementing my solution, I've opted to use Javascript.
 
 ## Repetition
 28. Adding Numbers 
+29. Handling Bad Input
 
 ## Data Structures 
  33. Magic 8 Ball

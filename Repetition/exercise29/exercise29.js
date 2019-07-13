@@ -18,20 +18,28 @@
 
 function badInput() {
     const rate = prompt("What is the rate of return?");
-    while (true) { 
-        if(rate !== 0) {
+    while (true) {
+        if (rate !== 0) {
             alert("Sorry, That's not a valid input");
-        } else if(rate === isNaN()) {
+        } else if (rate !== isNaN()) {
             alert("Sorry, That's not a valid input");
-        }  
-        break; 
+        }
+        break;
     }
-            const numInvestment = 72 / rate;
-            console.log("It will take" + ' ' + numInvestment + ' ' + "years to double your initial investment.");
-     }
+    const numInvestment = 72 / rate;
+    console.log("It will take" + ' ' + numInvestment + ' ' + "years to double your initial investment.");
+}
 
 
 
-
-
-
+function badInput() {
+    const rate = prompt("What is the rate of return?");
+    while (true) {
+        if (rate !== 0 && rate !== isNaN()) {
+            alert("Sorry, That's not a valid input");
+        } 
+        break;
+    } 
+    const numInvestment = 72 / rate;
+    console.log("It will take" + ' ' + numInvestment + ' ' + "years to double your initial investment.");
+}

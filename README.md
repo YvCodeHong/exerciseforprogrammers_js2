@@ -35,6 +35,7 @@ In implementing my solution, I've opted to use Javascript.
 ## Repetition
 28. Adding Numbers 
 29. Handling Bad Input
+30. Multiplication Table 
 
 ## Data Structures 
  33. Magic 8 Ball

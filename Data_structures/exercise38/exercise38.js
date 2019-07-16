@@ -13,3 +13,15 @@ function filteringValues() {
         }
     }
 }
+
+
+//function with an argument
+
+function filterEvenNumbers(num) {
+    const listofNum = num.split(" ");
+    for(let i = 0; i<listofNum; i++) {
+        if(i % 2 === 0) {
+            console.log("The even numbers are:" + i);
+        }
+    }
+}

@@ -45,3 +45,4 @@ In implementing my solution, I've opted to use Javascript.
  34. Employee List Removal
  35. Picking a winner 
  38. Filtering Values 
+ 39. Sorting Records

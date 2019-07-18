@@ -2,7 +2,7 @@
 //by last name and prints them to the screen 
 //in a tabular format. 
 
-const employees = [["Jacquelyn", "Jackson"], ["Jake", "Jacobson"], ["John", "Johnson"], ["Michaela", "Michaelson"]
+const employees = [["Jacquelyn", "Jackson"], ["Jake", "Jacobson"], ["John", "Johnson"],["Michaela", "Michaelson"],
 ["Sally", "Weber"], ["Tou", "Xiang"]]
 console.table(employees);
 

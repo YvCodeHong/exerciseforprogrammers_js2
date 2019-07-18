@@ -1,6 +1,9 @@
 # Exercises for Programmers 
 
-This repositories contains the solutions for [Exercises for Programmers](https://pragprog.com/book/bhwb/exercises-for-programmers) by [Brian Hogan](//github.com/napcs).
+This repositories contains the solutions for [Exercises for Programmers](http://www.r-5.org/files/books/computers/overviews/cs-tools/Brian_Hogan-Exercises_for_Programmers-EN.pdf) 
+by [Brian Hogan](//github.com/napcs).
+
+
 
 ## Technologies
 In implementing my solution, I've opted to use Javascript. 

@@ -2,9 +2,9 @@
 //by last name and prints them to the screen 
 //in a tabular format. 
 
-
-const employees = ["Jacquelyn Jackson", "Jake Jacobson", "John Johnson", "Michaela Michaelson",
-"Sally Weber", "Tou Xiang"]; 
+const employees = [["Jacquelyn", "Jackson"], ["Jake", "Jacobson"], ["John", "Johnson"], ["Michaela", "Michaelson"]
+["Sally", "Weber"], ["Tou", "Xiang"]]
+console.table(employees);
 
 function lastName(names) {
     return names.map(function(name) {
@@ -15,3 +15,5 @@ function lastName(names) {
 }
 
 console.log(lastName(employees));
+
+

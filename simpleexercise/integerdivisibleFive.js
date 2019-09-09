@@ -10,3 +10,9 @@ function divisibleFive(num) {
      }
 }
 
+//shortcut
+
+
+function divisibleFive(num) {
+    return num % 5 === 0 ? true: false; 
+}

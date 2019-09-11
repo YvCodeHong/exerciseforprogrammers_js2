@@ -7,3 +7,10 @@ function stringEmpty(string) {
          return false; 
      }
 }
+
+
+//shortcut 
+
+function stringEmpty(string) {
+    return string === "" ? true: false; 
+}

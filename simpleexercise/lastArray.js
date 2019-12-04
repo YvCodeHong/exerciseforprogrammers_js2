@@ -6,3 +6,4 @@ function lastArray(arr) {
     let last = arr.pop();
     return arr;
 }
+
